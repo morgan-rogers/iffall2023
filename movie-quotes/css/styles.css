@@ -1,0 +1,53 @@
+.bolded{
+    font-weight: bold; 
+}
+.action{
+    font-style: italic;
+}
+
+body {
+    background-image: url("https://images.unsplash.com/photo-1505635552518-3448ff116af3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8c3Bvb2t5fGVufDB8fDB8fHww&w=1000&q=80");
+    background-color: #cccccc;
+   }
+
+p{
+    text-align: left;
+    line-height: 150%;
+    font-family: "Lucida Console", "Courier New", monospace;
+    color: white;
+}
+
+h2{
+    text-align: center;
+    color: white;
+}
+
+h1{
+    text-align: center;
+    font-family: "p22-spooky", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 100px;
+    color: red;
+}
+
+h3{
+    color: red;
+}
+.scene1{
+    margin: auto;
+    width: 50%;
+    margin-bottom: 50px;
+}
+
+.scene2{
+    margin: auto;
+    width: 50%;
+    margin-bottom: 50px;
+}
+
+.scene3{
+    margin: auto;
+    width: 50%;
+    margin-bottom: 50px;
+}

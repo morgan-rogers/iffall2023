@@ -1,0 +1,62 @@
+body {
+    background-image: url("https://img.freepik.com/free-photo/vivid-blurred-colorful-wallpaper-background_58702-3697.jpg?w=2000&t=st=1694459928~exp=1694460528~hmac=084fc7a360089d6d77243efa34c8a9d3612b88ee0b55422f5bd1a5093613e554");
+    background-color: #cccccc;
+    min-height: 500px; 
+
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+   }
+
+img{
+    width: 87%;
+
+   
+}
+
+#first-description{
+    line-height: 170%;
+}
+
+h1{
+    font-family: "tt-ricks", serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 69px;
+}
+
+p{
+    font-family: "novel-sans-pro", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+#wrapper {
+    margin-left: 20%;
+    margin-top: 10%;
+    width: 200%;
+    padding-bottom: 270px;
+    
+    
+}
+#album{
+
+    width: 500px;
+    float:left; 
+    
+}
+#description {
+    width: 500px;
+    overflow: hidden;
+}
+
+.lyrics{
+    margin: auto;
+    text-align: center;
+    padding-bottom: 100px;
+}
+
+.lyric{
+    margin-bottom: 70px;
+}

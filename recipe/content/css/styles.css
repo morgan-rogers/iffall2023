@@ -1,0 +1,38 @@
+img{
+    width: 20%;
+}
+
+ul li{
+    display: block;
+}
+
+.bolded{
+    font-weight: bold;
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse:separate;
+    border:solid rgb(0, 0, 0) 1px;
+    border-radius:6px;
+    width: 40%;
+  }
+  
+  td, th {
+    border: 1px solid #dddddd;
+    border-radius: 4px;
+    text-align: left;
+    padding: 12px;
+  }
+  
+
+
+th {
+    background-color: rgb(233, 212, 181);
+    border-top: none;
+}
+
+td:first-child, th:first-child {
+     border-left: none;
+}
+  

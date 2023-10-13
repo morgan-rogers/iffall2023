@@ -1,0 +1,138 @@
+.header-container{
+    text-align: center;
+    padding: 80px;
+    line-height: 18px;
+    padding-top: 143px;
+
+    
+
+
+}
+header{
+    background-image: url(https://images.pexels.com/photos/4197563/pexels-photo-4197563.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2);
+    height: 2rem;
+    background-size: cover;
+    background-position: center;
+    height: 480px;
+    display:block;
+}
+
+h1{
+    font-size: 80px;
+    font-family: 'Archivo Narrow', sans-serif;
+    font-weight: bold;
+ 
+}
+h2{
+    font-size: 30px;
+    font-family: 'Archivo Narrow', sans-serif;
+    font-weight: bold;
+}
+p{
+    font-size: 18px;
+    line-height: 25px;
+    font-family: 'Archivo Narrow', sans-serif;
+}
+.italic{
+    font-style: italic;
+    font-weight: bold;
+}
+
+.candy-face{
+    width:400px;
+    float: right;
+    object-fit: cover;
+    height: 300px;
+    margin-left: 45px;
+    margin-bottom: 40px;
+}
+
+
+.section-titles{
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Archivo Narrow', sans-serif;
+}
+
+.first-container{
+    padding-left: 26rem;
+    padding-right: 26rem;
+    padding-bottom: 4rem;
+    padding-top: 7px;
+    height: 647px;
+    background-color: aliceblue;
+}
+
+.grid-image{
+    object-fit: cover;
+    height: 150px;
+    width: 200px;
+    float:left;
+    margin-right: 12px;
+}
+
+li{
+    padding-bottom: 30px;
+    width: 430px;
+    padding-right: 10px;
+    display: inline-block;
+}
+
+h3{
+    margin-top: 1px;
+    margin-bottom: -11px;
+    font-family: 'Archivo Narrow', sans-serif;
+    font-size: 20px;
+}
+
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    padding-left:26rem;
+    
+    
+}
+.second-section{
+    height: 683px;
+    background-color: rgb(255, 218, 246);
+    padding-top: 7px;
+}
+
+li p{
+    width: 430px;
+}
+
+.griditem{
+    padding-right: 50px;
+    padding-bottom: 22px;
+}
+
+.section-titles1{
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Archivo Narrow', sans-serif;
+    margin-bottom: 31px;
+    
+}
+
+
+.third-container p{
+    text-align: center;
+    width:704px;
+    margin:auto;
+    font-size: 26px;
+    line-height: 36px;
+}
+
+.third-section{
+    padding-top: 5px;
+    background-color: antiquewhite;
+    height:403px;
+}
+
+.column-container{
+    padding-top:20px;
+    padding-bottom: 20px;
+    padding-left: 416px;
+    background-color: aliceblue;
+}

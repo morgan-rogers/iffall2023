@@ -1,0 +1,451 @@
+
+
+body {
+    color: #333;
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    margin: 40px;
+}
+
+h1 {
+     font-size: 30px;
+     margin-bottom: 40px;
+}
+
+.button_container {
+    border: 1px solid #ddd;
+    margin: 0 10px 10px 0;
+    padding: 20px;
+    width: 300px;
+    height: 300px;
+    float: left;
+    overflow: hidden;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+
+
+
+ /* Colorrun */ 
+
+ a#btn_color{
+
+    display: inline-block;
+    position: relative;
+    margin:auto;
+    margin-top: 100px;
+    padding: 8px 16px;
+    font-size: 25px;
+    margin-top: 100px;
+
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+    text-decoration: none;
+    text-align:center;
+    border: none;
+    background-size: 300% 100%;
+
+    border-radius: 30px;
+    
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+
+    background-image: linear-gradient(to right, #3874f4, #50e27e, #f3fa71, #f08a36,  #ed2c59);
+}
+
+a#btn_color:hover {
+    background-position: 100% 0;
+    
+    -o-transition: all .6s ease-in-out;
+    -webkit-transition: all .6s ease-in-out;
+    transition: all .6s ease-in-out;
+}
+
+
+
+
+
+
+ /* SAMSUNG */ 
+
+
+
+
+
+
+  .center {
+    width: 180px;
+    height: 60px;
+    position: absolute;
+  }
+  
+  .btn {
+    width: 180px;
+    transition: 1s ease-in-out;
+    display: inline-block;
+    height: 50px;
+    margin-top: 115px;
+    margin-left: 40px;
+  }
+  
+  svg {
+    position: absolute;
+    left: 41px;
+    top: 100px;
+    fill: none;
+    stroke: #1768e8;
+    stroke-dasharray: 150 480;
+    stroke-dashoffset: 150;
+    transition: 1s ease-in-out;
+  }
+  
+  .btn:hover {
+    transition: 1s ease-in-out;
+  }
+  
+  .btn:hover svg {
+    stroke-dashoffset: -480;
+  }
+  
+
+  .img{
+    margin-top: 20px;
+  }
+
+
+
+   /* IDEO */ 
+
+ 
+
+   
+  
+  a#btn_ideo{
+    display: block;
+    width: 200px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 18px;
+    font-family: "ivypresto-display", serif;
+    font-weight: 700;
+    font-style: normal;
+    text-decoration: none;
+    color: #333;
+    border: 2px solid #333;
+    letter-spacing: 2px;
+    text-align: center;
+    position: relative;
+    margin-top:100px;
+    margin-left:25px;
+    transition: all .35s;
+  }
+  
+  a#btn_ideo span{
+    position: relative;
+    z-index: 2;
+
+  }
+  
+  a#btn_ideo:after{
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background:#68C8C6;;
+    transition: all .35s;
+  }
+  
+  a#btn_ideo:hover{
+    color: #ffffff;
+    border: 2px solid #FF5E3C;
+  }
+  
+  a#btn_ideo:hover:after{
+    width: 100%;
+  }
+
+
+   /* foreflight */ 
+
+
+  .btn-foreflight{
+    display: block;
+    width: 140px;
+    height: 30px;
+    padding: 5px;
+    border-radius: 20px;
+    background-color: #2D97DE;
+    color: #ffffff;
+    transition: all .7s ease 0s; 
+    margin-top:103px;
+    margin-left:50px;
+    font-family: "gesta", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+
+
+  .btn-foreflight span{
+    display: inline-block;
+    position: relative;
+    margin-top: 6px;
+    transition: all .5s ease;
+  }
+  
+  .btn-foreflight span:before{
+    content: '\f072'; 
+    color: #ffffff;
+    font-size: 1rem;
+    font-family: FontAwesome;
+    display: inline-block;
+    position: absolute;
+    top: 3px;
+    left: 1.5rem;
+    opacity: 0;
+    transition: all .1s ease 0s;
+  }
+  
+  .btn-foreflight:hover span{
+    padding-left: 1.5rem; 
+  }
+  
+  .btn-foreflight:hover span:before{
+    left: 0;
+    opacity: 1;
+  }
+
+
+   /* LYFT */ 
+
+   a#btn_lyft {
+    display: block;
+    width: 100px;
+    height: 100px;
+    margin: auto;
+    margin-top: 65px;
+    background-color: #ff06c1;
+    color: #fff;
+    
+    text-decoration: none;
+    font-size: 70px;
+    border-radius: 20px;
+    transition: all .2s;
+
+
+}
+
+a#btn_lyft:hover {
+    background-color: #01111F;
+    transition: 1s ease-in-out;
+    color:#ff06c1;
+}
+.fa-lyft{
+    margin-top: 17px;
+}
+  
+
+
+  /* EXPLODING KITTENS */ 
+
+.btn_exploding {
+    display: block;
+    margin: 80px auto;
+    width: 150px;
+    height: 80px;
+    line-height: 30px;
+    font-size: 30px;
+    text-decoration: none;
+    background: #ea3c0b;
+    font-family: 'Bebas Neue', sans-serif;
+    text-align: center;
+    border-radius: 38px;
+    color: #fff;
+    transition: all .5s;
+    
+  }
+  
+  .btn_exploding span{
+    display: inline-block;
+    position: relative;
+    margin-top: 12px;
+    
+    
+  }
+  
+
+  .btn_exploding:hover {
+    animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both;
+    transform: translate3d(0, 0, 0);
+    perspective: 1000px;
+    color: #f9f45c;
+
+  }
+  
+  @keyframes shake {
+    10%, 90% {
+      transform: translate3d(-1px, 0, 0);
+    }
+    20%, 80% {
+      transform: translate3d(2px, 0, 0);
+    }
+    30%, 50%, 70% {
+      transform: translate3d(-4px, 0, 0);
+    }
+    40%, 60% {
+      transform: translate3d(4px, 0, 0);
+    }
+  }
+
+
+   /* apple */ 
+
+.btn_apple {
+    display: block;
+  
+    width: 100px;
+    height: 100px;
+    margin: auto;
+    margin-top: 65px;
+    color: #fff;
+    
+    text-decoration: none;
+    font-size: 70px;
+    border-radius: 60px;
+
+
+    position: relative;
+    z-index: 0;
+    background-color: none;
+
+}
+
+.fa-apple{
+    color: #000;
+}
+.btn_apple:before {
+    content: '';
+    background: linear-gradient(45deg, #002bff, #7a00ff, #ff00c8);
+    position: absolute;
+    top: -2px;
+    left:-2px;
+    background-size: 400%;
+    z-index: -1;
+    filter: blur(5px);
+    width: calc(100% + 4px);
+    height: calc(100% + 4px);
+    animation: glowing 20s linear infinite;
+    opacity: 0;
+    transition: opacity .3s ease-in-out;
+    border-radius: 60px;
+}
+
+
+
+.btn_apple:active:after {
+    background: transparent;
+}
+
+.btn_apple:hover:before {
+    opacity: 1;
+}
+
+.btn_apple:after {
+    z-index: -1;
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #ffffff;
+    left: 0;
+    top: 0;
+    border-radius: 60px;
+}
+
+
+/* Nike */ 
+
+.btn_nike img{
+    display: inline-block;
+    position: relative;
+    
+    margin: auto;
+    margin-top: 70px;
+    
+    padding: 8px 14px 6px 14px;
+
+    border: 1px solid rgb(0, 0, 0);
+    transition: all 0.3s;
+    transform-origin: center;
+    transform: rotate(-30deg);
+}
+.btn_nike img:hover{
+    transform: rotate(20deg);
+    background-color: rgb(255, 123, 36);
+}
+
+/* FitBit */ 
+
+
+.btn_fitbit{
+  font-size: 2em;
+  position:relative;
+  color: rgb(255, 255, 255);
+  background-color: #00A5AE;
+  padding: 20px;
+  text-decoration: none;
+  border-radius: 60%;
+  
+  display: inline-block;
+  box-sizing: border-box;
+  margin-top: 80px;
+
+  font-family: "proxima-nova", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  transition: all .5s;
+  
+}
+
+
+
+.btn_fitbit:hover{
+  color:  rgb(13, 13, 13);
+  background-color: white;
+  transform: scale(135%);
+  transition: .6s;
+}
+
+
+
+/* New Yorker */ 
+
+
+.btn_newyorker{
+  display: block;
+  margin: auto;
+  margin-top: 100px;
+  font-size: 30px;
+  font-family: "adobe-caslon-pro", serif;
+  font-weight: 700;
+  font-style: normal;
+  text-decoration: none;
+  transition: all .9s;
+  color:#000
+}
+
+.btn_newyorker:hover{
+  color: #8b8b8b;
+  text-shadow: black;
+  
+  font-weight: 650;
+  letter-spacing: 3px;
+  transition: .4s;
+}

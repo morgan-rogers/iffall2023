@@ -1,0 +1,295 @@
+
+/* global css  */
+
+.flex {
+    display: flex;
+}
+
+.div-half {
+    display: block;
+    width: 50%;
+    
+}
+.first-half{
+    margin-right: 6rem;
+}
+
+.content {
+    /* change  */
+    max-width: 60%;
+    margin: auto;
+    margin-top: 5%;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+
+    font-family: 'Public Sans', sans-serif;
+    font-weight: 200;
+    background-color: rgb(253, 250, 244);
+}
+
+section {
+    margin-top: 0;
+    margin-bottom: 4em;
+}
+
+
+img {
+    border-radius: 10px;
+    width: 100%;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  
+  a {
+    text-decoration: none;
+  }
+  
+  li {
+    list-style: none;
+  }
+
+  /* HEADER STYLING */
+  h1{
+    font-size: 80px;
+    text-align: center;
+    padding-top: 120px;
+    margin-top: 0; 
+  }
+  p{
+    line-height: 1.4rem;
+    font-size: 17px;
+  }
+
+  /* fix this so that text isnt transparent */
+  .header{
+     background-image: url(https://anfieldindex.com/wp-content/uploads/Nevin-1-1280x763.png);
+     background-size: cover;
+     background-position: top;
+     opacity: 30%;
+     height: 45rem;
+  }
+ 
+ /* HISTORY PAGE ——————————————————————————————————————————————————————————————— */
+  .div-half-history-1 {
+    display: block;
+    width: 40%;
+    margin-left: 60px;
+    
+}
+.div-half-history-2 {
+    display: block;
+    width: 50%;
+}
+.history-info h3{
+    padding-bottom: 1rem;
+}
+.history-info p{
+    padding-bottom: 2rem;
+}
+/* HISTORY DATES */
+h2 {
+    font-size: 38pt;
+}
+.history-flex{
+    padding-bottom: 4rem;
+}
+#liverpool-history-dark{
+    background-color: #9f9f9f;
+    width: full-screen;
+}
+
+
+.content-wrapper-dark{
+    background-color: #1f1f1f;
+    padding-top: .1rem;
+    /* spacing is a bit uneven, fix later!!!! */
+    color: #C8C6C0;
+}
+
+
+ /* Players PAGE ——————————————————————————————————————————————————————————————— */
+
+  /* text content */
+ .player-number{
+    font-size: 70px;
+    margin-bottom: .5rem;
+ }
+
+ /* adjust spacing in boxes later*/
+ .player-name{
+    margin-bottom: .5rem;
+ }
+ hr{
+    width: 10px;
+    border: 1px solid rgb(0, 0, 0);
+    margin: auto;
+    margin-top: .5rem;
+    margin-bottom: .5rem;
+ }
+
+ .position{
+    font-size: 14px;
+    margin-bottom: 1rem;
+ }
+
+.box{
+    width:20%;
+    border-style: solid;
+    padding: 2rem 2rem 0 2rem;
+    text-align: center;
+}
+
+
+.gallery-grid {
+    display: -ms-grid;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 4rem;
+    justify-items: center;
+    margin: 0;
+    padding: 9rem; /* Adjust, distance from sides of page*/
+  }
+  
+  /* The Picture Frame */
+  .player-grid-frame {
+    padding-top: 2rem;
+    width: 320px;
+    font-size: 1.2rem;
+    text-align: center;
+    background-color: #ffffff;
+    color: #000000;
+    border: solid;
+  }
+  
+  /* The Images */
+  .player-img {
+    max-width: 100%;
+    height: 14rem;
+    object-fit: cover;
+    transition: opacity 0.25s ease-in-out;
+    border-radius: 0;
+    bottom: 0;
+    margin-bottom: -4.5px;
+    opacity: 80%;
+  }
+  
+  .player-img:hover {
+    opacity: .7;
+  }
+
+/* Honors PAGE ——————————————————————————————————————————————————————————————— */
+
+.honors-hr{
+    width: 100%;
+    border: .5px solid rgb(160, 160, 160);
+    margin: auto;
+    margin-top: .5rem;
+    margin-bottom: .5rem;
+}
+#honors-intro{
+    text-align: center;
+    font-size: 30px;
+}
+
+.titles{
+    border: 1.5px solid;
+    border-radius: 30px;
+    padding: 10px;
+    width: fit-content;
+    
+}
+  /* NAVBAR STYLING ——————————————————————————————————————————————————————————————— */
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px;
+    background-color: rgb(253, 250, 244);
+    color: #000000;
+  }
+  
+  .nav-links a {
+    color: #000000;
+  }
+  
+  /* LOGO (weird issue where it increases size when clicked?*/
+  .logo {
+    font-size: 30px;
+    text-decoration: none;
+    color: #000000;
+  }
+  
+  /* NAVBAR MENU */
+  .menu {
+    display: flex;
+    gap: 1em;
+    font-size: 18px;
+  }
+  
+  .menu li:hover {
+    text-decoration: underline;
+    transition: 0.6s ease; /* why isnt animation applying???? */
+  } 
+  
+  .menu li {
+    padding: 5px 24px;
+  }
+  
+
+
+
+
+  /* NAV BAR CHECKBOX */
+
+input[type=checkbox] {
+    display: none;
+  } 
+  
+  /* HAMBURGER MENU */
+  .hamburger {
+    display: none;
+    font-size: 24px;
+    user-select: none;
+  }
+  
+  /* MEDIA QUERIES */
+  @media (max-width: 768px) {
+   .menu {
+      display:none;
+      position: absolute;
+      background-color:rgb(255, 255, 255);
+      right: 0;
+      left: 0;
+      text-align: center;
+      padding: 16px 0;
+    }
+  
+    .menu li:hover {
+      display: inline-block;
+      background-color:#4c9e9e;
+      transition: 0.3s ease;
+    }
+  
+    .menu li + li {
+      margin-top: 12px;
+    }
+  
+    input[type=checkbox]:checked ~ .menu {
+      display: block;
+    }
+  
+    .hamburger {
+      display: block;
+    }
+  
+  }

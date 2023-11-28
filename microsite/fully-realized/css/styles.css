@@ -1,0 +1,664 @@
+
+/* global css  */
+
+.flex {
+    display: flex;
+}
+
+.div-half {
+    display: block;
+    width: 50%;
+    
+}
+.first-half{
+    margin-right: 6rem;
+}
+
+.content {
+    /* change  */
+    max-width: 60%;
+    margin: auto;
+    margin-top: 5%;
+}
+
+h3{
+  font-size: 26px;
+  font-weight: 400;
+  padding-bottom: 1rem;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+
+    font-family: 'Public Sans', sans-serif;
+    font-weight: 200;
+    background-color: rgb(253, 250, 244);
+}
+
+section {
+    margin-top: 0;
+    margin-bottom: 4em;
+}
+
+
+img {
+    border-radius: 10px;
+    width: 100%;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  
+  a {
+    text-decoration: none;
+  }
+  
+  li {
+    list-style: none;
+  }
+
+  /* HEADER STYLING */
+  h1{
+    font-size: 80px;
+    text-align: center;
+    padding-top: 120px;
+    margin-top: 0; 
+  }
+  p{
+    line-height: 1.6rem;
+    font-size: 17px;
+  }
+
+  /* Home PAGE ——————————————————————————————————————————————————————————————— */
+
+  /* fix this so that text isnt transparent */
+  .header{
+     background-image: url(../images/liverpool-header.jpg);
+     background-size: cover;
+     background-position: top;
+     height: 58rem;
+  }
+  #home-heading{
+      font-size: 160px;
+      color: white;
+      width: 80%;
+      margin: auto;
+      padding-top: 15%;
+
+  }
+
+  .content-section-1{
+    padding-bottom: 4rem;
+  }
+
+  #liverpool-intro{
+    padding-bottom: 3rem;
+    padding-top: 3rem;
+  }
+ 
+ /* HISTORY PAGE ——————————————————————————————————————————————————————————————— */
+  .div-half-history-1 {
+    display: block;
+    width: 40%;
+    margin-left: 60px;
+    
+}
+.div-half-history-2 {
+    display: block;
+    width: 50%;
+}
+
+.history-info p{
+    padding-bottom: 2rem;
+}
+/* HISTORY DATES */
+h2 {
+    font-size: 38pt;
+}
+.history-flex{
+    padding-bottom: 5rem;
+}
+
+
+.div-half-history-2 img{
+  padding-bottom: 1rem;
+}
+
+
+.content-wrapper-dark{
+    background-color: #1f1f1f;
+    padding: .1rem;
+    /* spacing is a bit uneven, fix later!!!! */
+    color: #C8C6C0;
+    padding-top: 1rem;
+}
+.content-wrapper-light{
+  padding: .1rem;
+  padding-top: 1rem;
+}
+
+
+ /* Players PAGE ——————————————————————————————————————————————————————————————— */
+
+  /* text content */
+ .player-number{
+    font-size: 70px;
+    margin-bottom: .5rem;
+ }
+
+ /* adjust spacing in boxes later*/
+ .player-name{
+    margin-bottom: .5rem;
+ }
+ hr{
+    width: 10px;
+    border: 1px solid rgb(0, 0, 0);
+    margin: auto;
+    margin-top: .5rem;
+    margin-bottom: .5rem;
+ }
+
+ .position{
+    font-size: 14px;
+    margin-bottom: 1rem;
+ }
+
+
+
+.gallery-grid {
+    display: -ms-grid;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 4rem;
+    justify-items: center;
+    margin: 0;
+    padding: 9rem; /* Adjust, distance from sides of page*/
+  }
+  
+  /* The Picture Frame */
+  .player-grid-frame {
+    padding-top: 2rem;
+    width: 320px;
+    font-size: 1.2rem;
+    text-align: center;
+    background-color: #ffffff;
+    border: solid;
+  }
+  
+  /* The Images */
+  .player-img {
+    max-width: 100%;
+    height: 14rem;
+    object-fit: cover;
+    transition: opacity 0.25s ease-in-out;
+    border-radius: 0;
+    bottom: 0;
+    margin-bottom: -4.5px;
+    opacity: 80%;
+  }
+
+/* Honors PAGE ——————————————————————————————————————————————————————————————— */
+
+.honors-hr{
+    width: 100%;
+    border: .5px solid rgb(160, 160, 160);
+    margin: auto;
+    margin-top: .5rem;
+    margin-bottom: .5rem;
+}
+
+#honors-intro{
+    text-align: center;
+    font-size: 30px;
+    padding-top: 3rem;
+    width: 60%;
+    margin: auto;
+    padding-bottom: 2rem;
+}
+
+.titles{
+    border: 1.5px solid;
+    border-radius: 30px;
+    padding: 10px;
+    width: fit-content;
+    margin-bottom: 2rem;
+    
+}
+
+.content-wrapper-honors{
+  padding-bottom: 6rem;
+  padding-top: .4rem;
+}
+
+.content-wrapper-honors.second{
+    background-color:  rgb(243, 236, 224);
+    padding-top: .1rem;
+    padding-bottom: 6rem;
+}
+
+  
+
+
+
+
+  /* NAVBAR STYLING ——————————————————————————————————————————————————————————————— */
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px;
+    background-color: rgb(253, 250, 244);
+    color: #000000;
+  }
+  
+  .nav-links a {
+    color: #000000;
+  }
+  
+  /* LOGO (weird issue where it increases size when clicked?*/
+  .logo {
+    font-size: 30px;
+    text-decoration: none;
+    color: #000000;
+  }
+  
+  /* NAVBAR MENU */
+  .menu {
+    display: flex;
+    gap: 1em;
+    font-size: 18px;
+  }
+  
+  .menu li a:hover {
+    color: rgb(187, 176, 157);
+    transition: 0.3s ease; /* why isnt animation applying???? */
+  } 
+  
+  .menu li {
+    padding: 5px 24px;
+  }
+  
+
+
+
+
+  /* NAV BAR CHECKBOX */
+
+input[type=checkbox] {
+    display: none;
+  } 
+  
+  /* HAMBURGER MENU */
+  .hamburger {
+    display: none;
+    font-size: 24px;
+    user-select: none;
+  }
+  
+  /* MEDIA QUERIES */
+  @media (max-width: 768px) {
+   .menu {
+      display:none;
+      position: absolute;
+      background-color:rgb(253, 250, 244);
+      right: 0;
+      left: 0;
+      text-align: center;
+      padding: 20px 0;
+    }
+  
+    .menu li:hover {
+      display: inline-block;
+      transition: 0.3s ease;
+    }
+  
+    .menu li + li {
+      margin-top: 12px;
+    }
+  
+    input[type=checkbox]:checked ~ .menu {
+      display: block;
+    }
+  
+    .hamburger {
+      display: block;
+    }
+  
+  }
+
+
+
+
+  /*********  RESPONSIVE CSS *********/
+
+  .container{
+    max-width: 1170px;
+    margin:auto;
+  }
+  .row{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  ul{
+    list-style: none;
+  }
+  .footer{
+    background-color: #24262b;
+      padding: 50px 0;
+  }
+  .footer-col{
+     width: 30%;
+     padding: 0 18px;
+  }
+  .footer-col h4{
+    font-size: 18px;
+    color: #ffffff;
+    text-transform: capitalize;
+    margin-bottom: 30px;
+    font-weight: 500;
+    position: relative;
+  }
+  .footer-col h4::before{
+    content: '';
+    position: absolute;
+    left:0;
+    bottom: -10px;
+    background-color:  rgb(187, 176, 157);
+    height: 2px;
+    box-sizing: border-box;
+    width: 50px;
+  }
+  .footer-col ul li:not(:last-child){
+    margin-bottom: 10px;
+  }
+  .footer-col ul li a{
+    font-size: 16px;
+    text-transform: capitalize;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 300;
+    color: #C8C6C0;
+    display: block;
+    transition: all 0.3s ease;
+  }
+  .footer-col ul li a:hover{
+    color: #ffffff;
+    padding-left: 8px;
+  }
+  .footer-col li{
+    color: #C8C6C0;
+  }
+  
+
+  
+  /*responsive*/
+  @media(max-width: 767px){
+    .footer-col{
+      width: 50%;
+      margin-bottom: 30px;
+  }
+  }
+  @media(max-width: 574px){
+    .footer-col{
+      width: 100%;
+  }
+  }
+  
+
+
+
+
+
+
+
+
+
+
+
+    /*********  RESPONSIVE CSS *********/
+
+
+     /* small screens */
+    @media (max-width: 600px) {
+      .content {
+          max-width: 80%;
+      }
+
+       /* players page  —————————*/
+
+      
+      .player-img{
+        width: 200px;
+        float: right;
+        height: 100%;
+        object-fit: cover;
+  
+      }
+      .player-grid-frame{
+        width: 480px;
+        display: flex;
+        padding: 0px;
+        background-color: rgb(253, 250, 244);
+        border-top: none;
+        border-color:  rgb(225, 215, 197);
+        border-left: none;
+        border-right: none;
+        padding-right: 1rem;
+        padding-bottom: 2rem;
+        margin-top: -30px;
+        
+      }
+
+      .player-wrapper{
+        text-align: left;
+        padding-left: 1rem;
+        width: 70%;
+      }
+      .image-wrapper{
+        padding-bottom: 0;
+      }
+
+      hr{
+        margin-left: 0;
+     }
+    
+     .position{
+        margin-bottom: 0;
+        padding-bottom: 0;
+     }
+
+
+
+  
+      #header h1 {
+          font-size: 60pt; 
+          left: 5%; 
+          width: 80%; 
+      }
+
+      #home-heading{
+        font-size: 60pt; 
+      }
+  
+      .flex {
+          display: block;
+      }
+      
+       /* history page  —————————*/
+      .history-date{
+        padding-bottom: 2.5rem;
+      }
+      
+      .div-half-history-1 {
+          width: 100%; 
+          text-align: left;
+          margin-left: 0px;
+      }
+      .div-half-history-2 {
+        width: 100%; 
+    }
+
+     /* honors page  —————————*/
+     .div-half.first-half{
+      width: 100%; 
+      padding-bottom: 2rem;
+    }
+    .div-half{
+      width: 100%; 
+    }
+
+    .content-wrapper-honors{
+      padding-top: 2rem;
+      padding-bottom: 3rem;
+    }
+    
+    .content-wrapper-honors.second{
+        padding-bottom: 4rem;
+        padding-top:1rem;
+    }
+   
+      
+  }
+  
+  /* Medium screens */
+  @media (min-width: 601px) and (max-width: 900px) {
+
+
+      #home-heading{
+        font-size: 90pt; 
+      }
+
+
+      .content {
+          max-width: 80%;
+      }
+  
+
+  
+      .flex {
+          display: block;
+      }
+
+      /* history page  —————————*/
+      .history-date{
+        padding-bottom: 2.5rem;
+      }
+      
+      .div-half-history-1 {
+          width: 100%; 
+          text-align: left;
+          margin-left: 0px;
+      }
+      .div-half-history-2 {
+        width: 100%; 
+    }
+
+     /* honors page  —————————*/
+    .div-half.first-half{
+      width: 100%; 
+      padding-bottom: 2rem;
+    }
+    .div-half{
+      width: 100%; 
+    }
+
+    .content-wrapper-honors{
+      padding-top: 2rem;
+    }
+    
+    .content-wrapper-honors.second{
+        padding-bottom: 4rem;
+    }
+    #honors-intro{
+      width: 80%;
+    }
+
+  }
+
+  /* Medium-large screens */
+  @media (min-width: 901px) and (max-width: 1400px) {
+    .content {
+        max-width: 80%;
+    }
+    
+    .div-half-history-1 {
+        padding-right: 2rem;
+    }
+
+    #honors-intro{
+      width: 80%;
+    }
+    
+   
+}
+  
+  /* Large screens */
+  @media (min-width: 1401px) {
+      .content {
+          max-width: 60%; 
+      }
+  
+      #header h1 {
+          font-size: 80pt; 
+          left: 20%; 
+          width: 40%; 
+      }
+      
+  }
+  
+
+
+
+
+  /* PLAYERS PAGE  */
+  @media (min-width: 601px) and (max-width: 851px) {
+
+    .player-img{
+      width: 200px;
+      float: right;
+      height: 100%;
+      object-fit: cover;
+  
+    }
+    .player-grid-frame{
+      width: 600px;
+      display: flex;
+      padding: 0px;
+      background-color: rgb(253, 250, 244);
+      border-top: none;
+      border-color:  rgb(225, 215, 197);
+      border-left: none;
+      border-right: none;
+      padding-right: 1rem;
+      padding-bottom: 2rem;
+      margin-top: -30px;
+      
+    }
+  
+    .player-wrapper{
+      text-align: left;
+      padding-left: 1rem;
+      width: 70%;
+    }
+    .image-wrapper{
+      padding-bottom: 0;
+    }
+  
+    hr{
+      margin-left: 0;
+   }
+  
+   .position{
+      margin-bottom: 0;
+      padding-bottom: 0;
+   }
+}
+
+
